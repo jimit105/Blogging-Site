@@ -265,3 +265,12 @@ a.article, a.article:hover {
 .pageCategory{
     padding: 1em;    
 }
+
+footer{
+    float: right;
+    color: #777;
+}
+
+footer a:hover{
+    color: #000;
+}
