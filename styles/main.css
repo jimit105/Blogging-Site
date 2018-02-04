@@ -61,7 +61,7 @@ i, span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
+    background: #009688;
     color: #fff;
     transition: all 0.3s;
 }
@@ -112,7 +112,7 @@ i, span {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #00695C;
 }
 
 #sidebar .sidebar-header strong {
@@ -131,7 +131,7 @@ i, span {
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #009688;
     background: #fff;
 }
 #sidebar ul li a i {
@@ -140,7 +140,7 @@ i, span {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #00695C;
 }
 
 
@@ -164,7 +164,7 @@ a[aria-expanded="true"]::before {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #00897B;
 }
 
 ul.CTAs {
@@ -181,12 +181,7 @@ ul.CTAs a {
 
 a.subscribe {
     background: #fff;
-    color: #7386D5;
-}
-
-a.article, a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
+    color: #009688;
 }
 
 
@@ -268,9 +263,9 @@ a.article, a.article:hover {
 
 footer{
     float: right;
-    color: #777;
+    color: #4DB6AC;
 }
 
 footer a:hover{
-    color: #000;
+    color: #004D40;
 }
