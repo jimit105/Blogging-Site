@@ -35,7 +35,7 @@
 
               <ul class="list-unstyled components">
                   
-                  <li>
+                  <li class="active">
                       <a href="index.html" aria-expanded="false">
                           <i class="fa fa-home"></i>
                           Home
@@ -121,31 +121,21 @@
                 
                 <!-- PAGE CONTENTS Starts -->
 
-                <h2>Hadoop</h2>
-                <p>Hadoop is an open source, Java-based programming framework that supports the processing and storage of extremely large data sets in a distributed computing environment. It is part of the Apache project sponsored by the Apache Software Foundation.</p>
+                <h2>MapReduce</h2>
+                <p>MapReduce is a programming framework that allows us to perform distributed and parallel processing on large data sets in a distributed environment. MapReduce consists of two distinct tasks – Map and Reduce.As the name MapReduce suggests, reducer phase takes place after mapper phase has been completed.So, the first is the map job, where a block of data is read and processed to produce key-value pairs as intermediate outputs.The output of a Mapper or map job (key-value pairs) is input to the Reducer.The reducer receives the key-value pair from multiple map jobs.Then, the reducer aggregates those intermediate data tuples (intermediate key-value pair) into a smaller set of tuples or key-value pairs which is the final output.</p>
                 
-                <p>Hadoop makes it possible to run applications on systems with thousands of commodity hardware nodes, and to handle thousands of terabytes of data. Its distributed file system facilitates rapid data transfer rates among nodes and allows the system to continue operating in case of a node failure. This approach lowers the risk of catastrophic system failure and unexpected data loss, even if a significant number of nodes become inoperative. Consequently, Hadoop quickly emerged as a foundation for big data processing tasks, such as scientific analytics, business and sales planning, and processing enormous volumes of sensor data, including from internet of things sensors</p>
                 
-                <p>As a software framework, Hadoop is composed of numerous functional modules. At a minimum, Hadoop uses Hadoop Common as a kernel to provide the framework's essential libraries. Other components include Hadoop Distributed File System (HDFS), which is capable of storing data across thousands of commodity servers to achieve high bandwidth between nodes; Hadoop Yet Another Resource Negotiator (YARN), which provides resource management and scheduling for user applications; and Hadoop MapReduce, which provides the programming model used to tackle large distributed data processing -- mapping data and reducing it to a result.
-
-			    Hadoop also supports a range of related projects that can complement and extend Hadoop's basic capabilities. Complementary software packages include:
+                
+                <p>The entire MapReduce program can be fundamentally divided into three parts:
 				
-<ul style="font-family: 'Raleway', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;">
-                    
-                
-                
-				<li>Apache Hive. A data warehouse that provides data summarization, query and analysis;</li>
-				<li>Apache HBase :An open source, nonrelational, distributed database;</li>
-				<li>Apache Pig. A high-level platform for creating programs that run on Hadoop;</li>
-				<li>Apache Sqoop. A tool to transfer bulk data between Hadoop and structured data stores, such as relational databases;</li>
-				<li>Apache Spark. A fast engine for big data processing capable of streaming and supporting SQL, machine learning and graph processing;</li>
-
-				
-				
+				<ul style="font-family: 'Raleway', sans-serif;
+					font-size: 1.1em;
+					font-weight: 300;
+					line-height: 1.7em;
+					color: #999;">
+					<li>Mapper Phase</li> 
+					<li> CodeReducer Phase Code </li> 
+					<li>Driver Code</li>
 				</ul>
 				</p>
             
