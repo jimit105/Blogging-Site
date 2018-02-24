@@ -114,12 +114,51 @@
                 </nav>
 
                 <!-- NAVBAR Ends -->
-
-                <img src="images/404.png" style="height: 45%; width: 75%;"><br><br>
                 
-                <p style="padding-left: 0em;">Take me to <a href="index.html" style="text-decoration: underline; color: #00695C">Home Page</a> </p>             
+                <p>Redirecting you to home page in <span id="countdown">10</span></p>
+                
+                <p style="padding-left: 0em;">If you are not automatically redirected, <a href="index.html" style="text-decoration: underline; color: #00695C">click here</a> </p>
+                
+                
+                <div style="text-align: center"><img src="images/404.png" style="width: 45%;"><br><br></div>
+                
+                             
+                
+                
+                <!-- JavaScript part -->
+                <script type="text/javascript">
+    
+                    // Total seconds to wait
+                    var seconds = 10;
+    
+                    function countdown() {
+                        seconds = seconds - 1;
+                        if (seconds < 0) {
+                        // Change your redirection link here
+                            window.location = "index.html";
+                            
+                        } else {
+                            // Update remaining seconds
+                            if(seconds < 2){
+                            document.getElementById("countdown").innerHTML = seconds + " second";
+                                
+                            } else{
+                                document.getElementById("countdown").innerHTML = seconds + " seconds";    
+                            }
+                                                        
+                            // Count down using javascript
+                            window.setTimeout("countdown()", 1000);
+                        }
+                    }
+    
+                // Run countdown function
+                    countdown();
+                    
+                </script>
                 
                 <div class="line"></div>
+                
+                
 
                 <!-- FOOTER Starts -->
 
