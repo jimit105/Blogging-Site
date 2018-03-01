@@ -61,8 +61,8 @@ include 'db.php'
           <!-- SIDEBAR Starts -->
           <nav id="sidebar">
               <div class="sidebar-header">
-                  <h3>CodeBuzz</h3>
-                  <strong>CB</strong>
+                  <h3><i class="fa fa-podcast"></i>&nbsp;CodeBuzz</h3>
+                  <strong><i class="fa fa-podcast"></i></strong>
               </div>
 
               <ul class="list-unstyled components">
