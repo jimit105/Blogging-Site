@@ -12,12 +12,4 @@ function formatDate($date){
   
 }
 
-
-
-
-
-
-
-
-
 ?>

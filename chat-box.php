@@ -67,7 +67,7 @@ include 'db.php'
 
               <ul class="list-unstyled components">
 
-                  <li class="active">
+                  <li>
                       <a href="index.html" aria-expanded="false">
                           <i class="fa fa-home"></i>
                           Home
@@ -100,10 +100,10 @@ include 'db.php'
                       </a>
                   </li>
 
-                  <li>
-                    <a href="feedback.html">
-                        <i class="fa fa-edit"></i>
-                        Feedback
+                  <li class="active">
+                    <a href="chat-box.php">
+                        <i class="fa fa-comments"></i>
+                        Chat
                     </a>
                   </li>
 
