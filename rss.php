@@ -130,8 +130,8 @@
                     $description = $xml->channel->item[$i]->description;
                     $pubDate = $xml->channel->item[$i]->pubDate;
 
-                    $html .= "<a href='$link'><h3>$title</h3></a>";
-                    $html .= "$description";
+                    $html .= "<a href='$link'><h3 style='color: blue;'>$title</h3></a>";
+                    $html .= "$description <br>";
                     $html .= "<br />$pubDate<hr />";
                 }
                 echo $html;
