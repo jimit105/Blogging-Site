@@ -15,7 +15,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: #696969;
 }
 
 a, a:hover, a:focus {
@@ -157,7 +157,7 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
     font-size: 0.6em;
 }
 a[aria-expanded="true"]::before {
-    content: '\f077';    
+    content: '\f077';
 }
 
 
@@ -258,7 +258,7 @@ a.subscribe {
 /* --------------------------------------------------- */
 
 .pageCategory{
-    padding: 1em;    
+    padding: 1em;
 }
 
 footer{
