@@ -148,47 +148,47 @@ include 'db.php'
                 <!-- NAVBAR Ends -->
 
                 <!-- PAGE CONTENTS Starts -->
+                
+                <!-- CHAT BOX Starts -->
 
                 <div id="container">
-        <div id="chat_box">
-            <table>
-                <div id="chat">
+                    <div id="chat_box">            
+                        <div id="chat">
+                        </div>
+                    </div>
+                    
+                    <form method="post" action="chat-box.php">
+                        <input type="text" name="name" placeholder="Enter Name">
+                        &nbsp;
+                        <textarea name="msg" placeholder="Enter Message"></textarea>
+                        &nbsp;
+                        <input type="submit" name="submit" value="Send">
+                    </form>
+
+                    <?php
+                        if(isset($_POST['submit'])){
+                            $name = $_POST['name'];
+                            $msg = $_POST['msg'];
+
+                            $query = "INSERT INTO chat(name, msg) VALUES('$name', '$msg')";
+
+                            $run = $con->query($query);
+
+
+                            // if successfully inserted, pop sound
+                            if($run){
+                                // echo "<embed loop='false' src='chat.mp3' hidden='true' autoplay='true'/>";
+                                echo '<script type="text/javascript">playSound();</script>';
+
+                            }
+
+
+                        }
+                    ?>
+
                 </div>
-            </table>
-
                 
-        </div>
-
-        <form method="post" action="chat-box.php">
-            <input type="text" name="name" placeholder="Enter Name">
-            &nbsp;
-            <textarea name="msg" placeholder="Enter Message"></textarea>
-            &nbsp;
-            <input type="submit" name="submit" value="Send">
-        </form>
-
-        <?php
-        if(isset($_POST['submit'])){
-          $name = $_POST['name'];
-          $msg = $_POST['msg'];
-
-          $query = "INSERT INTO chat(name, msg) VALUES('$name', '$msg')";
-
-          $run = $con->query($query);
-
-
-          // if successfully inserted, pop sound
-          if($run){
-//            echo "<embed loop='false' src='chat.mp3' hidden='true' autoplay='true'/>";
-              echo '<script type="text/javascript">playSound();</script>';
-
-          }
-
-
-        }
-        ?>
-
-    </div>
+                <!-- CHAT BOX Ends -->
                 
 
                 <!-- PAGE CONTENTS Ends -->
