@@ -133,7 +133,7 @@
 
                     $html .= "<a href='$link'><h3 style='color: #007f96;'>$title</h3></a>";
                     $html .= "<p>$description</p>";
-                    $html .= "<p style='color: #4a7077'>".date_format($pubDate, 'D, d M y h:i:s a')."</p><hr>";
+                    $html .= "<p style='color: #4a7077'>".date_format($pubDate, 'D, dS M Y h:i:s a')."</p><hr>";
                 }
                 echo $html;
                 ?>
