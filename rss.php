@@ -129,10 +129,11 @@
                     $link = $xml->channel->item[$i]->link;
                     $description = $xml->channel->item[$i]->description;
                     $pubDate = $xml->channel->item[$i]->pubDate;
+                    $pubDate = date_create($pubDate);
 
                     $html .= "<a href='$link'><h3 style='color: #007f96;'>$title</h3></a>";
                     $html .= "<p>$description</p>";
-                    $html .= "<p style='color: #4a7077'>$pubDate</p><hr>";
+                    $html .= "<p style='color: #4a7077'>".date_format($pubDate, 'D, d M y h:i:s a')."</p><hr>";
                 }
                 echo $html;
                 ?>
