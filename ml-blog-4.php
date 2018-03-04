@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <?php
+        include 'meta.php';
+        ?>
 
         <title>CodeBuzz | Jimit Dholakia</title>
 
@@ -35,8 +35,8 @@
 
               <ul class="list-unstyled components">
                   
-                  <li class="active">
-                      <a href="index.html" aria-expanded="false">
+                  <li>
+                      <a href="index.php" aria-expanded="false">
                           <i class="fa fa-home"></i>
                           Home
                       </a>                      
@@ -48,21 +48,21 @@
                           Categories
                       </a>
                       <ul class="collapse list-unstyled" id="pageSubmenu">
-                          <li><a href="python.html">Python</a></li>
-                          <li><a href="machine-learning.html">Machine Learning</a></li>
-                          <li class="active"><a href="big-data.html">Big Data</a></li>
+                          <li><a href="python.php">Python</a></li>
+                          <li class="active"><a href="machine-learning.php">Machine Learning</a></li>
+                          <li><a href="big-data.php">Big Data</a></li>
                       </ul>
                   </li>
                   
                   <li>
-                      <a href="contributors.html">
+                      <a href="contributors.php">
                           <i class="fa fa-users"></i>
                           Contributors
                       </a>
                   </li>
                   
                   <li>
-                      <a href="about.html">
+                      <a href="about.php">
                           <i class="fa fa-info-circle"></i>
                           About
                       </a>
@@ -102,9 +102,9 @@
                             </button>
                         </div>
                         
-                        <a href="big-data.html">
+                        <a href="machine-learning.php">
                         <div class="pageCategory">
-                            Big Data
+                            Machine Learning
                         </div>
                         </a>
 
@@ -121,65 +121,39 @@
                 
                 <!-- PAGE CONTENTS Starts -->
 
-                <h2>MapReduce</h2>
-                <p>MapReduce is a programming framework that allows us to perform distributed and parallel processing on large data sets in a distributed environment. MapReduce consists of two distinct tasks – Map and Reduce.As the name MapReduce suggests, reducer phase takes place after mapper phase has been completed.So, the first is the map job, where a block of data is read and processed to produce key-value pairs as intermediate outputs.The output of a Mapper or map job (key-value pairs) is input to the Reducer.The reducer receives the key-value pair from multiple map jobs.Then, the reducer aggregates those intermediate data tuples (intermediate key-value pair) into a smaller set of tuples or key-value pairs which is the final output.</p>
+                <h2>KNN (K- Nearest Neighbors)</h2>
+                <p>It can be used for both classification and regression problems. However, it is more widely used in classification problems in the industry. K nearest neighbors is a simple algorithm that stores all available cases and classifies new cases by a majority vote of its k neighbors. The case being assigned to the class is most common amongst its K nearest neighbors measured by a distance function.</p>
                 
+                <p>These distance functions can be Euclidean, Manhattan, Minkowski and Hamming distance. First three functions are used for continuous function and fourth one (Hamming) for categorical variables. If K = 1, then the case is simply assigned to the class of its nearest neighbor. At times, choosing K turns out to be a challenge while performing KNN modeling.</p>
                 
+                <p>KNN can easily be mapped to our real lives. If you want to learn about a person, of whom you have no information, you might like to find out about his close friends and the circles he moves in and gain access to his/her information!</p>
                 
-                <p>The entire MapReduce program can be fundamentally divided into three parts:
-				
-				<ul style="font-family: 'Raleway', sans-serif;
-					font-size: 1.1em;
-					font-weight: 300;
-					line-height: 1.7em;
-					color: #999;">
-					<li>Mapper Phase</li> 
-					<li> CodeReducer Phase Code </li> 
-					<li>Driver Code</li>
-				</ul>
-				</p>
+                <p>Things to consider before selecting KNN:</p>
+            
+                <ul style="font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;">
+                    <li>KNN is computationally expensive</li>
+                    <li>Variables should be normalized else higher range variables can bias it</li>
+                    <li>Works on pre-processing stage more before going for KNN like outlier, noise removal</li>
+                                   
+                </ul>
             
         
                             
                 
                 <!-- PAGE CONTENTS Ends -->                
                 
-                <div class="line"></div>
+                
                 
                 
                 <!-- FOOTER Starts-->
                 
-                <footer>
-                    
-                    <ul class="nav">   
-                        
-                        <li class="nav-item">  
-                            <a href="https://github.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-github fa-2x" title="GitHub"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://in.linkedin.com/in/jimit105" target="_blank" class="nav-link"><i class="fa fa-linkedin fa-2x" title="LinkedIn"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://www.facebook.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-facebook fa-2x" title="Facebook"></i></a>
-                        </li>
-                            
-                        <li class="nav-item">
-                            <a href="https://plus.google.com/+JimitDholakia" target="_blank" class="nav-link"><i class="fa fa-google-plus fa-2x" title="Google Plus"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://twitter.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-twitter fa-2x" title="Twitter"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://www.instagram.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-instagram fa-2x" title="Instagram"></i></a>
-                        </li>
-                        
-                    </ul>
-                    
-                </footer>
+                <?php
+                include 'footer.php';
+                ?>
                 
                 <!-- FOOTER Ends -->
                                 

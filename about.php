@@ -2,9 +2,9 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <?php
+    include 'meta.php';
+    ?>
 
     <title>CodeBuzz | Jimit Dholakia</title>
 
@@ -37,7 +37,7 @@
             <ul class="list-unstyled components">
 
                 <li>
-                    <a href="index.html" aria-expanded="false">
+                    <a href="index.php" aria-expanded="false">
                           <i class="fa fa-home"></i>
                           Home
                       </a>
@@ -49,21 +49,21 @@
                           Categories
                       </a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
-                          <li><a href="python.html">Python</a></li>
-                          <li><a href="machine-learning.html">Machine Learning</a></li>
-                          <li class="active"><a href="big-data.html">Big Data</a></li>
+                          <li><a href="python.php">Python</a></li>
+                          <li><a href="machine-learning.php">Machine Learning</a></li>
+                          <li><a href="big-data.php">Big Data</a></li>
                       </ul>
                 </li>
 
                 <li>
-                    <a href="contributors.html">
+                    <a href="contributors.php">
                           <i class="fa fa-users"></i>
                           Contributors
                       </a>
                 </li>
 
-                <li>
-                    <a href="about.html">
+                <li class="active">
+                    <a href="about.php">
                           <i class="fa fa-info-circle"></i>
                           About
                       </a>
@@ -101,7 +101,7 @@
                     </div>
 
                     <div class="pageCategory">
-                        Big Data
+                        About
                     </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -115,83 +115,55 @@
             
             <!-- NAVBAR Ends -->
 
-            <h3 style="text-align: center">Big Data</h3>
+            <h3 style="text-align: center">About </h3>
             <p>
                 Lorem ipsum dolor sit amet, scripta molestiae eos ei, ea viderer verterem nec, id fabulas legimus posidonium pro. Debet instructior pri id, dolor possit eu cum. Eum ut sint veniam. Usu insolens scribentur ad, eam melius molestiae eu. Alii invidunt sea
                 ne.
             </p>
-           
+            <p>
+                Ne appetere recteque duo, nulla noluisse eos no. Ius virtute tractatos eu. Vidisse tritani maiorum vel in, volumus consequuntur mel te. Et eos solum movet repudiandae, mei vide nonumes in, augue posidonium at est. Inermis eloquentiam in eum, munere aperiri
+                ea vel.
+            </p>
+            
             <div class="line"></div>
-            
-            
 
             <!-- CONTRIBUTORS Starts -->
             
             <div class="container">
-                
+                <br>
+                <h3 class="text-center">Contributors</h3>
+                <p class="text-center">Those who write with us!</p>
+                <br>
             	<div class="row">
             		<div class="card" style="width: 25em; margin: auto;">
-                    	
+                    	<img class="img-fluid" src="images/male.png" style="width:70%; margin: auto;">
                     		<div class="card-body">
-                    			<h4 class="card-title">How to get image size from url</h4>
+                    			<h4 class="card-title" style="text-align: center;">Jimit Dholakia</h4>
                     			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
                     			<div class="text-center">
-                                    <a href="bd-blog-1.html" class="btn btn-secondary" style="background-color: #009688">  
-                                        <i class="fa fa-angle-double-right"></i>
-                                        Continue Reading                                    
+                                    <a href="https://in.linkedin.com/in/jimit105" class="btn btn-primary" target="_blank">  
+                                        <i class="fa fa-envelope"></i>
+                                        Contact                                        
                                     </a>
                                 </div>
                     		</div>
                 	</div>
 
                 	<div class="card" style="width: 25em; margin: auto;">
-                    	
+                    	<img class="img-fluid" src="images/female.png" style="width:70%; margin: auto;">
                     		<div class="card-body">
-                    			<h4 class="card-title">How to get image size from url</h4>
+                    			<h4 class="card-title" style="text-align: center;">Ushma Bhatt</h4>
                     			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
                     			<div class="text-center">
-                                    <a href="bd-blog-2.html" class="btn btn-secondary" style="background-color: #009688">  
-                                        <i class="fa fa-angle-double-right"></i>
-                                        Continue Reading                                    
+                                    <a href="https://in.linkedin.com/in/ushma-bhatt-950a82133" class="btn btn-primary" target="_blank">  
+                                        <i class="fa fa-envelope"></i>
+                                        Contact                                        
                                     </a>
                                 </div>
                     		</div>
                 	</div>
-                    
-                </div>
-                <div style="width: 100%; height: 1em;"></div>
-                <div class="row">
-                    
-                    <div class="card" style="width: 25em; margin: auto;">
-                    	
-                    		<div class="card-body">
-                    			<h4 class="card-title">How to get image size from url</h4>
-                    			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    			<div class="text-center">
-                                    <a href="bd-blog-3.html" class="btn btn-secondary" style="background-color: #009688">  
-                                        <i class="fa fa-angle-double-right"></i>
-                                        Continue Reading                                    
-                                    </a>
-                                </div>
-                    		</div>
-                	</div>
-                    
-                    <div class="card" style="width: 25em; margin: auto;">
-                    	
-                    		<div class="card-body">
-                    			<h4 class="card-title">How to get image size from url</h4>
-                    			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    			<div class="text-center">
-                                    <a href="bd-blog-4.html" class="btn btn-secondary" style="background-color: #009688">  
-                                        <i class="fa fa-angle-double-right"></i>
-                                        Continue Reading                                    
-                                    </a>
-                                </div>
-                    		</div>
-                	</div>
+
             	</div>
-                                              
-                
             </div>
             
             <!-- CONTRIBUTORS Ends -->
@@ -202,38 +174,9 @@
 
             <!-- FOOTER Starts-->
 
-            <div class="line"></div>
-            <footer>
-
-                <ul class="nav">
-
-                    <li class="nav-item">
-                        <a href="https://github.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-github fa-2x" title="GitHub"></i></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="https://in.linkedin.com/in/jimit105" target="_blank" class="nav-link"><i class="fa fa-linkedin fa-2x" title="LinkedIn"></i></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="https://www.facebook.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-facebook fa-2x" title="Facebook"></i></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="https://plus.google.com/+JimitDholakia" target="_blank" class="nav-link"><i class="fa fa-google-plus fa-2x" title="Google Plus"></i></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="https://twitter.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-twitter fa-2x" title="Twitter"></i></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="https://www.instagram.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-instagram fa-2x" title="Instagram"></i></a>
-                    </li>
-
-                </ul>
-
-            </footer>
+            <?php
+            include 'footer.php';
+            ?>
 
             <!-- FOOTER Ends -->
 

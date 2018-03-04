@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <?php
+        include 'meta.php';
+        ?>
 
         <title>CodeBuzz | Jimit Dholakia</title>
 
@@ -36,7 +36,7 @@
               <ul class="list-unstyled components">
                   
                   <li>
-                      <a href="index.html" aria-expanded="false">
+                      <a href="index.php" aria-expanded="false">
                           <i class="fa fa-home"></i>
                           Home
                       </a>                      
@@ -48,21 +48,21 @@
                           Categories
                       </a>
                       <ul class="collapse list-unstyled" id="pageSubmenu">
-                          <li class="active"><a href="python.html">Python</a></li>
-                          <li><a href="machine-learning.html">Machine Learning</a></li>
-                          <li><a href="big-data.html">Big Data</a></li>
+                          <li><a href="python.php">Python</a></li>
+                          <li class="active"><a href="machine-learning.php">Machine Learning</a></li>
+                          <li><a href="big-data.php">Big Data</a></li>
                       </ul>
                   </li>
                   
                   <li>
-                      <a href="contributors.html">
+                      <a href="contributors.php">
                           <i class="fa fa-users"></i>
                           Contributors
                       </a>
                   </li>
                   
                   <li>
-                      <a href="about.html">
+                      <a href="about.php">
                           <i class="fa fa-info-circle"></i>
                           About
                       </a>
@@ -102,9 +102,9 @@
                             </button>
                         </div>
                         
-                        <a href="python.html">
+                        <a href="machine-learning.php">
                         <div class="pageCategory">
-                            Python
+                            Machine Learning
                         </div>
                         </a>
 
@@ -121,66 +121,40 @@
                 
                 <!-- PAGE CONTENTS Starts -->
 
-                <h2>Linear Regression</h2>
-                <p>It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line. This best fit line is known as regression line and represented by a linear equation Y= a *X + b.</p>
+                <h2>Naive Bayes</h2>
+                <p>It is a classification technique based on Bayes’ theorem with an assumption of independence between predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature. For example, a fruit may be considered to be an apple if it is red, round, and about 3 inches in diameter. Even if these features depend on each other or upon the existence of the other features, a naive Bayes classifier would consider all of these properties to independently contribute to the probability that this fruit is an apple.</p>
                 
-                <p>The best way to understand linear regression is to relive this experience of childhood. Let us say, you ask a child in fifth grade to arrange people in his class by increasing order of weight, without asking them their weights! What do you think the child will do? He / she would likely look (visually analyze) at the height and build of people and arrange them using a combination of these visible parameters. This is linear regression in real life! The child has actually figured out that height and build would be correlated to the weight by a relationship, which looks like the equation above.</p>
+                <p>Naive Bayesian model is easy to build and particularly useful for very large data sets. Along with simplicity, Naive Bayes is known to outperform even highly sophisticated classification methods.</p>
                 
-                <p>In this equation:</p>
+                <p>Bayes theorem provides a way of calculating posterior probability P(c|x) from P(c), P(x) and P(x|c).</p>
+                
+                <p>Here,</p>
             
                 <ul style="font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
     color: #999;">
-                    <li>Y – Dependent Variable</li>
-                    <li>a – Slope</li>
-                    <li>X – Independent variable</li>
-                    <li>b – Intercept</li>
+                    <li>P(c|x) is the posterior probability of class (target) given predictor (attribute)</li>
+                    <li>P(c) is the prior probability of class</li>
+                    <li>P(x|c) is the likelihood which is the probability of predictor given class</li>
+                    <li>P(x) is the prior probability of predictor</li>
                 
                 </ul>
-
+            
         
                             
                 
                 <!-- PAGE CONTENTS Ends -->                
                 
-                <div class="line"></div>
+                
                 
                 
                 <!-- FOOTER Starts-->
                 
-                <footer>
-                    
-                    <ul class="nav">   
-                        
-                        <li class="nav-item">  
-                            <a href="https://github.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-github fa-2x" title="GitHub"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://in.linkedin.com/in/jimit105" target="_blank" class="nav-link"><i class="fa fa-linkedin fa-2x" title="LinkedIn"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://www.facebook.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-facebook fa-2x" title="Facebook"></i></a>
-                        </li>
-                            
-                        <li class="nav-item">
-                            <a href="https://plus.google.com/+JimitDholakia" target="_blank" class="nav-link"><i class="fa fa-google-plus fa-2x" title="Google Plus"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://twitter.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-twitter fa-2x" title="Twitter"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://www.instagram.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-instagram fa-2x" title="Instagram"></i></a>
-                        </li>
-                        
-                    </ul>
-                    
-                </footer>
+                <?php
+                include 'footer.php';
+                ?>
                 
                 <!-- FOOTER Ends -->
                                 

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <?php
+        include 'meta.php';
+        ?>
 
         <title>CodeBuzz | Jimit Dholakia</title>
 
@@ -36,7 +36,7 @@
               <ul class="list-unstyled components">
                   
                   <li>
-                      <a href="index.html" aria-expanded="false">
+                      <a href="index.php" aria-expanded="false">
                           <i class="fa fa-home"></i>
                           Home
                       </a>                      
@@ -48,21 +48,21 @@
                           Categories
                       </a>
                       <ul class="collapse list-unstyled" id="pageSubmenu">
-                          <li><a href="python.html">Python</a></li>
-                          <li class="active"><a href="machine-learning.html">Machine Learning</a></li>
-                          <li><a href="big-data.html">Big Data</a></li>
+                          <li><a href="python.php">Python</a></li>
+                          <li class="active"><a href="machine-learning.php">Machine Learning</a></li>
+                          <li><a href="big-data.php">Big Data</a></li>
                       </ul>
                   </li>
                   
                   <li>
-                      <a href="contributors.html">
+                      <a href="contributors.php">
                           <i class="fa fa-users"></i>
                           Contributors
                       </a>
                   </li>
                   
                   <li>
-                      <a href="about.html">
+                      <a href="about.php">
                           <i class="fa fa-info-circle"></i>
                           About
                       </a>
@@ -102,7 +102,7 @@
                             </button>
                         </div>
                         
-                        <a href="machine-learning.html">
+                        <a href="machine-learning.php">
                         <div class="pageCategory">
                             Machine Learning
                         </div>
@@ -121,66 +121,26 @@
                 
                 <!-- PAGE CONTENTS Starts -->
 
-                <h2>Linear Regression</h2>
-                <p>It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line. This best fit line is known as regression line and represented by a linear equation Y= a *X + b.</p>
+                <h2>Logistic Regression</h2>
+                <p>Don’t get confused by its name! It is a classification not a regression algorithm. It is used to estimate discrete values ( Binary values like 0/1, yes/no, true/false ) based on given set of independent variable(s). In simple words, it predicts the probability of occurrence of an event by fitting data to a logit function. Hence, it is also known as logit regression. Since, it predicts the probability, its output values lies between 0 and 1 (as expected).</p>
                 
-                <p>The best way to understand linear regression is to relive this experience of childhood. Let us say, you ask a child in fifth grade to arrange people in his class by increasing order of weight, without asking them their weights! What do you think the child will do? He / she would likely look (visually analyze) at the height and build of people and arrange them using a combination of these visible parameters. This is linear regression in real life! The child has actually figured out that height and build would be correlated to the weight by a relationship, which looks like the equation above.</p>
+                <p>Again, let us try and understand this through a simple example.</p>
                 
-                <p>In this equation:</p>
+                <p>Let’s say your friend gives you a puzzle to solve. There are only 2 outcome scenarios – either you solve it or you don’t. Now imagine, that you are being given wide range of puzzles / quizzes in an attempt to understand which subjects you are good at. The outcome to this study would be something like this – if you are given a trignometry based tenth grade problem, you are 70% likely to solve it. On the other hand, if it is grade fifth history question, the probability of getting an answer is only 30%. This is what Logistic Regression provides you.</p>
             
-                <ul style="font-family: 'Raleway', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;">
-                    <li>Y – Dependent Variable</li>
-                    <li>a – Slope</li>
-                    <li>X – Independent variable</li>
-                    <li>b – Intercept</li>
-                
-                </ul>
-
         
                             
                 
                 <!-- PAGE CONTENTS Ends -->                
                 
-                <div class="line"></div>
+                
                 
                 
                 <!-- FOOTER Starts-->
                 
-                <footer>
-                    
-                    <ul class="nav">   
-                        
-                        <li class="nav-item">  
-                            <a href="https://github.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-github fa-2x" title="GitHub"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://in.linkedin.com/in/jimit105" target="_blank" class="nav-link"><i class="fa fa-linkedin fa-2x" title="LinkedIn"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://www.facebook.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-facebook fa-2x" title="Facebook"></i></a>
-                        </li>
-                            
-                        <li class="nav-item">
-                            <a href="https://plus.google.com/+JimitDholakia" target="_blank" class="nav-link"><i class="fa fa-google-plus fa-2x" title="Google Plus"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://twitter.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-twitter fa-2x" title="Twitter"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="https://www.instagram.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-instagram fa-2x" title="Instagram"></i></a>
-                        </li>
-                        
-                    </ul>
-                    
-                </footer>
+                <?php
+                include 'footer.php';
+                ?>
                 
                 <!-- FOOTER Ends -->
                                 
