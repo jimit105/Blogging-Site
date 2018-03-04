@@ -16,8 +16,8 @@ echo'
             </a>
         </li>
 
-        <li>
-            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" id="categories">
+        <li id="category">
+            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
                           <i class="fa fa-clone"></i>
                           Categories
                       </a>

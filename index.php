@@ -27,61 +27,13 @@
       <div class="wrapper">
 
           <!-- SIDEBAR Starts -->
-          <nav id="sidebar">
-              <div class="sidebar-header">
-                  <h3><i class="fa fa-podcast"></i>&nbsp;CodeBuzz</h3>
-                  <strong><i class="fa fa-podcast"></i></strong>
-              </div>
-
-              <ul class="list-unstyled components">
-
-                  <li class="active">
-                      <a href="index.php" aria-expanded="false">
-                          <i class="fa fa-home"></i>
-                          Home
-                      </a>
-                  </li>
-
-                  <li>
-                      <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
-                          <i class="fa fa-clone"></i>
-                          Categories
-                      </a>
-                      <ul class="collapse list-unstyled" id="pageSubmenu">
-                          <li><a href="python.php">Python</a></li>
-                          <li><a href="machine-learning.php">Machine Learning</a></li>
-                          <li><a href="big-data.php">Big Data</a></li>
-                      </ul>
-                  </li>
-
-                  <li>
-                      <a href="contributors.php">
-                          <i class="fa fa-users"></i>
-                          Contributors
-                      </a>
-                  </li>
-
-                  <li>
-                      <a href="about.php">
-                          <i class="fa fa-info-circle"></i>
-                          About
-                      </a>
-                  </li>
-
-                  <li>
-                    <a href="chat-box.php">
-                        <i class="fa fa-comments"></i>
-                        Chat
-                    </a>
-                  </li>
-
-              </ul>
-
-              <ul class="list-unstyled CTAs">
-                <li><a href="#" class="subscribe"><i class="fa fa-envelope"></i>Subscribe us</a></li>
-                <li><a href="#" class="article"><i class="fa fa-share"></i>Share an article</a></li>
-            </ul>
-          </nav>
+          <?php
+          include 'sidebar.php';
+          ?>
+          
+          <script>
+              document.getElementById("home").classList.add("active");
+          </script>
 
           <!-- SIDEBAR Ends -->
 
@@ -170,27 +122,7 @@
 
                 </div>
 
-                <!-- CAROUSEL Ends -->
-
-
-                <!--<h2>Collapsible Sidebar Using Bootstrap 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <div class="line"></div>
-
-                <h2>Lorem Ipsum Dolor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <div class="line"></div>
-
-                <h2>Lorem Ipsum Dolor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <div class="line"></div>
-
-                <h3>Lorem Ipsum Dolor</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+                <!-- CAROUSEL Ends -->           
 
 
                 <!-- PAGE CONTENTS Ends -->
