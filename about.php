@@ -18,6 +18,39 @@
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico">
+    
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZERMJubgSsXGICl1FnmC9DfGKNQ_QtpY&callback=initialize"></script>
+    <link rel="stylesheet" href="styles/maps.css">
+    
+    <!-- GOOGLE MAPS Script Starts -->
+        <script>
+var myCenter = new google.maps.LatLng(19.0730898, 72.8976334);
+function initialize(){
+    var mapProp = {
+        center:myCenter,
+        zoom:12,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById("map"),mapProp);
+
+    var marker = new google.maps.Marker({
+        position:myCenter,
+        animation:google.maps.Animation.BOUNCE
+    });
+
+    marker.setMap(map);
+    
+    var infowindow = new google.maps.InfoWindow({
+    content: "K. J. Somaiya College of Engineering"
+  });
+  infowindow.open(map,marker);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+        
+        <!-- GOOGLE MAPS Script Ends -->
 
    
 </head>
@@ -67,7 +100,7 @@
             
             <!-- NAVBAR Ends -->
 
-            <h3 style="text-align: center">About </h3>
+            <h3 style="text-align: center">About CodeBuzz</h3>
             <p>
                 Lorem ipsum dolor sit amet, scripta molestiae eos ei, ea viderer verterem nec, id fabulas legimus posidonium pro. Debet instructior pri id, dolor possit eu cum. Eum ut sint veniam. Usu insolens scribentur ad, eam melius molestiae eu. Alii invidunt sea
                 ne.
@@ -121,6 +154,14 @@
             <!-- CONTRIBUTORS Ends -->
             
             <br>
+            
+            <!-- GOOGLE MAPS Starts -->
+            <div class="line"></div>
+            <h3 class="text-center">Locate Us</h3><br>
+            
+    <div id="map"></div>
+
+            <!-- GOOGLE MAPS Ends -->
 
 
 
@@ -133,6 +174,10 @@
             <!-- FOOTER Ends -->
 
         </div>
+        
+        
+        
+        
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <!-- Bootstrap Js CDN -->
