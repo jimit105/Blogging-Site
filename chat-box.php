@@ -106,6 +106,9 @@ include 'db.php'
                 <div id="container">
                     <div id="chat_box">            
                         <div id="chat">
+                            <i class="fa fa-spinner"></i>
+                            Loading Chat Box..
+                            
                         </div>
                     </div>
                     
