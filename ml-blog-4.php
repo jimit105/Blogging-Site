@@ -87,7 +87,7 @@
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;">
+    color: #696969;">
                     <li>KNN is computationally expensive</li>
                     <li>Variables should be normalized else higher range variables can bias it</li>
                     <li>Works on pre-processing stage more before going for KNN like outlier, noise removal</li>

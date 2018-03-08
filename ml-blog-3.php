@@ -87,7 +87,7 @@
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;">
+    color: #696969;">
                     <li>P(c|x) is the posterior probability of class (target) given predictor (attribute)</li>
                     <li>P(c) is the prior probability of class</li>
                     <li>P(x|c) is the likelihood which is the probability of predictor given class</li>

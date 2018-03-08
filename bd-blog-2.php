@@ -85,7 +85,7 @@
 					font-size: 1.1em;
 					font-weight: 300;
 					line-height: 1.7em;
-					color: #999;">
+					color: #696969;">
 					<li>Mapper Phase</li> 
 					<li> CodeReducer Phase Code </li> 
 					<li>Driver Code</li>

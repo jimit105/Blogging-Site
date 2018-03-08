@@ -57,7 +57,7 @@
                             </button>
                     </div>
 
-                    <a href="big-data.html">
+                    <a href="big-data.php">
                         <div class="pageCategory">
                             Big Data
                         </div>
@@ -87,7 +87,7 @@
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;">
+    color: #696969;">
 
 
 
