@@ -159,7 +159,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
             <div class="line"></div>
             <h3 class="text-center">Locate Us</h3><br>
             
-    <div id="map"></div>
+            <div id="map"></div>
 
             <!-- GOOGLE MAPS Ends -->
 
