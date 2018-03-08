@@ -86,8 +86,8 @@
             		<div class="card" style="width: 25em; margin: auto;">
                     	
                     		<div class="card-body">
-                    			<h4 class="card-title">How to get image size from url</h4>
-                    			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    			<h4 class="card-title">Hadoop</h4>
+                    			<p class="card-text">Hadoop is an open source, Java-based programming framework that supports the processing and storage of extremely large data sets in a distributed computing environment.</p>
                     			<div class="text-center">
                                     <a href="bd-blog-1.php" class="btn btn-secondary" style="background-color: #009688">  
                                         <i class="fa fa-angle-double-right"></i>
@@ -100,8 +100,8 @@
                 	<div class="card" style="width: 25em; margin: auto;">
                     	
                     		<div class="card-body">
-                    			<h4 class="card-title">How to get image size from url</h4>
-                    			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    			<h4 class="card-title">MapReduce</h4>
+                    			<p class="card-text">MapReduce is a programming framework that allows us to perform distributed and parallel processing on large data sets in a distributed environment. MapReduce consists of two tasks – Map and Reduce.</p>
                     			<div class="text-center">
                                     <a href="bd-blog-2.php" class="btn btn-secondary" style="background-color: #009688">  
                                         <i class="fa fa-angle-double-right"></i>
@@ -118,8 +118,8 @@
                     <div class="card" style="width: 25em; margin: auto;">
                     	
                     		<div class="card-body">
-                    			<h4 class="card-title">How to get image size from url</h4>
-                    			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    			<h4 class="card-title">Types of Big Data</h4>
+                    			<p class="card-text">“Data” is defined as ‘the quantities, characters, or symbols on which operations are performed by a computer, which may be stored and transmitted in the form of electrical signals.</p>
                     			<div class="text-center">
                                     <a href="bd-blog-3.php" class="btn btn-secondary" style="background-color: #009688">  
                                         <i class="fa fa-angle-double-right"></i>
@@ -132,8 +132,8 @@
                     <div class="card" style="width: 25em; margin: auto;">
                     	
                     		<div class="card-body">
-                    			<h4 class="card-title">How to get image size from url</h4>
-                    			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    			<h4 class="card-title">DSMS</h4>
+                    			<p class="card-text">DSMS is a computer software system to manage continuous data streams. It is similar to a DBMS, which is, however, designed for static data in conventional databases</p>
                     			<div class="text-center">
                                     <a href="bd-blog-4.php" class="btn btn-secondary" style="background-color: #009688">  
                                         <i class="fa fa-angle-double-right"></i>
