@@ -74,22 +74,22 @@
                 
                 <!-- PAGE CONTENTS Starts -->
 
-                <h2>Linear Regression</h2>
-                <p>It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line. This best fit line is known as regression line and represented by a linear equation Y= a *X + b.</p>
+                <h2>Understanding Python</h2>
+                <p>Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.</p>
                 
-                <p>The best way to understand linear regression is to relive this experience of childhood. Let us say, you ask a child in fifth grade to arrange people in his class by increasing order of weight, without asking them their weights! What do you think the child will do? He / she would likely look (visually analyze) at the height and build of people and arrange them using a combination of these visible parameters. This is linear regression in real life! The child has actually figured out that height and build would be correlated to the weight by a relationship, which looks like the equation above.</p>
+                <p>Python was developed by Guido van Rossum in the late eighties and early nineties at the National Research Institute for Mathematics and Computer Science in the Netherlands. Python is derived from many other languages, including ABC, Modula-3, C, C++, Algol-68, SmallTalk, and Unix shell and other scripting languages. Python is copyrighted. Like Perl, Python source code is now available under the GNU General Public License (GPL). Python is now maintained by a core development team at the institute, although Guido van Rossum still holds a vital role in directing its progress.</p>
                 
-                <p>In this equation:</p>
+
             
                 <ul style="font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
     color: #696969;">
-                    <li>Y – Dependent Variable</li>
-                    <li>a – Slope</li>
-                    <li>X – Independent variable</li>
-                    <li>b – Intercept</li>
+                    <li>Python is Interpreted :  Python is processed at runtime by the interpreter</li>
+                    <li>Python is Interactive : One can interact with the interpreter directly to write your programs.</li>
+                    <li>Python is Object-Oriented :Technique of programming that encapsulates code within objects.</li>
+                    <li>Python is a Beginner's Language : Python is a great language for the beginner-level programmers</li>
                 
                 </ul>
 

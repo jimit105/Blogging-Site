@@ -74,22 +74,34 @@
                 
                 <!-- PAGE CONTENTS Starts -->
 
-                <h2>Linear Regression</h2>
-                <p>It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line. This best fit line is known as regression line and represented by a linear equation Y= a *X + b.</p>
+                <h2>Features of Python</h2>
+                <p>Python Features include : </p>
                 
-                <p>The best way to understand linear regression is to relive this experience of childhood. Let us say, you ask a child in fifth grade to arrange people in his class by increasing order of weight, without asking them their weights! What do you think the child will do? He / she would likely look (visually analyze) at the height and build of people and arrange them using a combination of these visible parameters. This is linear regression in real life! The child has actually figured out that height and build would be correlated to the weight by a relationship, which looks like the equation above.</p>
-                
-                <p>In this equation:</p>
-            
                 <ul style="font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;">
-                    <li>Y – Dependent Variable</li>
-                    <li>a – Slope</li>
-                    <li>X – Independent variable</li>
-                    <li>b – Intercept</li>
+    color: #696969;">
+                    <li>Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.</li>
+
+                    <li>Easy-to-read − Python code is more clearly defined and visible to the eyes.</li>
+
+                    <li>Easy-to-maintain − Python's source code is fairly easy-to-maintain.</li>
+
+                    <li>A broad standard library − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.</li>
+
+                    <li>Interactive Mode − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.</li>
+
+                    <li>Portable − Python can run on a wide variety of hardware platforms and has the same interface on all platforms</li>
+
+                    <li>Extendable − You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient.</li>
+
+                    <li>Databases − Python provides interfaces to all major commercial databases.</li>
+
+                    <li>GUI Programming − Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.</li>
+
+                    <li>Scalable − Python provides a better structure and support for large programs than shell scripting.</li>
+
                 
                 </ul>
 

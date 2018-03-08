@@ -74,22 +74,25 @@
                 
                 <!-- PAGE CONTENTS Starts -->
 
-                <h2>Linear Regression</h2>
-                <p>It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line. This best fit line is known as regression line and represented by a linear equation Y= a *X + b.</p>
+                <h2>Applications of Python</h2>
                 
-                <p>The best way to understand linear regression is to relive this experience of childhood. Let us say, you ask a child in fifth grade to arrange people in his class by increasing order of weight, without asking them their weights! What do you think the child will do? He / she would likely look (visually analyze) at the height and build of people and arrange them using a combination of these visible parameters. This is linear regression in real life! The child has actually figured out that height and build would be correlated to the weight by a relationship, which looks like the equation above.</p>
-                
-                <p>In this equation:</p>
-            
                 <ul style="font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;">
-                    <li>Y – Dependent Variable</li>
-                    <li>a – Slope</li>
-                    <li>X – Independent variable</li>
-                    <li>b – Intercept</li>
+    color: #696969;">
+                    <li>Web and Internet Development : Frameworks such as Django and Pyramid. Micro-frameworks such as Flask and Bottle. Advanced content management systems such as Plone and django CMS.</li>
+
+                    <li>Scientific and Numeric : Python is widely used in scientific and numeric computing. SciPy is a collection of packages for mathematics, science, and engineering. Pandas is a data analysis and modeling library. IPython is a powerful interactive shell that features easy editing and recording of a work session, and supports visualizations and parallel computing. The Software Carpentry Course teaches basic skills for scientific computing, running bootcamps and providing open-access teaching materials.</li>
+
+                    <li>Education : Python is a superb language for teaching programming, both at the introductory level and in more advanced courses.</li>
+
+                    <li>Desktop GUIs : The Tk GUI library is included with most binary distributions of Python. Some toolkits that are usable on several platforms are available separately: wxWidgets Kivy, for writing multitouch applications. Qt via pyqt or pyside</li>
+
+                    <li>Software Development : Python is often used as a support language for software developers, for build control and management, testing, and in many other ways. SCons for build control. Buildbot and Apache Gump for automated continuous compilation and testing. Roundup or Trac for bug tracking and project management.
+                    </li>
+
+                    <li>Business Applications : Python is also used to build ERP and e-commerce systems.Odoo is an all-in-one management software that offers a range of business applications that form a complete suite of enterprise management applications.Tryton is a three-tier high-level general purpose application platform.</li>
                 
                 </ul>
 

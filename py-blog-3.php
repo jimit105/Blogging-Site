@@ -74,24 +74,26 @@
                 
                 <!-- PAGE CONTENTS Starts -->
 
-                <h2>Linear Regression</h2>
-                <p>It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line. This best fit line is known as regression line and represented by a linear equation Y= a *X + b.</p>
+                <h2>Functions in Python</h2>
+                <p>You can define functions in any Python program, using the def statement that specifies the function signature, followed by a sequence of statements that constitute the function.</p>
                 
-                <p>The best way to understand linear regression is to relive this experience of childhood. Let us say, you ask a child in fifth grade to arrange people in his class by increasing order of weight, without asking them their weights! What do you think the child will do? He / she would likely look (visually analyze) at the height and build of people and arrange them using a combination of these visible parameters. This is linear regression in real life! The child has actually figured out that height and build would be correlated to the weight by a relationship, which looks like the equation above.</p>
+                <p>The typical structure of a Python program, having three components:</p>
                 
-                <p>In this equation:</p>
+
             
                 <ul style="font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;">
-                    <li>Y – Dependent Variable</li>
-                    <li>a – Slope</li>
-                    <li>X – Independent variable</li>
-                    <li>b – Intercept</li>
+    color: #696969;">
+                    <li>A sequence of import statements</li>
+                    <li>A sequence of function definitions</li>
+                    <li>Arbitrary global code, or the body of the program</li>
                 
                 </ul>
+
+        <p>The first line of a function definition, known as its signature, gives a name to the function and to each parameter variable. The signature consists of the keyword def; the function name; a sequence of zero or more parameter variable names separated by commas and enclosed in parentheses; and a colon. The indented statements following the signature define the function body. The function body can consist of various kinds of control and looping statements. It also can contain a return statement, which transfers control back to the point where the function was called and returns the result of the computation or return value. The body may also define local variables, which are variables that are available only inside the function in which they are defined.</p>
+
 
         
                             
