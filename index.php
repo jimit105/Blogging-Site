@@ -92,21 +92,21 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="#">
+                            <a href="bd-blog-1.php">
                             <img src="images/CarouselBD.jpg" alt="Image 2" width="1100" height="500">
                             </a>
                             <div class="carousel-caption">
                                <!--  <h3>Slide 2</h3> -->
-                                <p style="color: ghostwhite;">Key Highlights from Budget 2018</p>
+                               <p style="color: #fafafa; background-color: rgba(0, 150, 136, 0.3); font-weight: bold;">Hadoop</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="#">
+                            <a href="py-blog-4.php">
                             <img src="images/CarouselPY.jpg" alt="Image 3" width="1100" height="500">
                             </a>
                             <div class="carousel-caption">
                                 <!-- <h3>Slide 3</h3> -->
-                                <p style="color: ghostwhite;">Around Mumbai in Seven Faiths</p>
+                                <p style="color: #fafafa; background-color: rgba(0, 150, 136, 0.3); font-weight: bold;">Applications of Python</p>
                             </div>
                         </div>
 
