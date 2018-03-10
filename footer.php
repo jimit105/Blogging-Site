@@ -1,8 +1,8 @@
 <?php
 echo '<div class="line"></div>
-            <footer>
+            <footer style="width: 100%;">
 
-                <ul class="nav">
+                <ul class="nav" style="margin: 0 auto">
 
                     <li class="nav-item">
                         <a href="https://github.com/jimit105" target="_blank" class="nav-link"><i class="fa fa-github fa-2x" title="GitHub"></i></a>
