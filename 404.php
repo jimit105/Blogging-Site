@@ -21,6 +21,8 @@
 
     </head>
     <body>
+        <!-- SCROLL TO TOP -->
+    <?php include 'scroll-to-top.php'; ?>
 
 
 

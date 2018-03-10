@@ -56,6 +56,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </head>
 
 <body>
+    
+    <!-- SCROLL TO TOP -->
+    <?php include 'scroll-to-top.php'; ?>
 
     <div class="wrapper">
 

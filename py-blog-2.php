@@ -19,7 +19,9 @@
         <link rel="icon" href="images/favicon.ico">
         
     </head>
-    <body>
+<body>
+        <!-- SCROLL TO TOP -->
+    <?php include 'scroll-to-top.php'; ?>
 
 
 
