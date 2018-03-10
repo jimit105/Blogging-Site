@@ -88,7 +88,7 @@
                             </a>
                             <div class="carousel-caption">
                                 <h3></h3>
-                                <p style="color: #009688;">k-Nearest Neighbors</p>
+                                <p style="color: #fafafa; background-color: rgba(0, 150, 136, 0.3); font-weight: bold;">k-Nearest Neighbors</p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -113,11 +113,11 @@
                     </div>
 
                     <a class="carousel-control-prev" href="#carouselSlide" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
+                        <i class="fa fa-chevron-left"></i>
                     </a>
 
                     <a class="carousel-control-next" href="#carouselSlide" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
+                        <i class="fa fa-chevron-right"></i>
                     </a>
 
                 </div>
