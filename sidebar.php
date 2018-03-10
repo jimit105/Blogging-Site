@@ -39,7 +39,7 @@ echo'
 			</ul>
 		</li>
 		<li id="rss">
-			<a href="rss.php">
+			<a href="rss-articles.php">
 				<i class="fa fa-rss"></i>
                           RSS Articles
                       
