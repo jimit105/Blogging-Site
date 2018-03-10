@@ -5,7 +5,7 @@
         include 'meta.php';
         ?>
 
-        <title>CodeBuzz | Jimit Dholakia</title>
+        <title>Features of Python <?php include 'title.php' ?></title>
 
          <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">

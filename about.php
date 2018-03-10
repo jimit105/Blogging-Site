@@ -6,7 +6,7 @@
     include 'meta.php';
     ?>
 
-    <title>CodeBuzz | Jimit Dholakia</title>
+    <title>About <?php include 'title.php' ?></title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -100,7 +100,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
             
             <!-- NAVBAR Ends -->
 
-            <h3 style="text-align: center">About CodeBuzz</h3>
+            <h3 style="text-align: center">About Us</h3>
             <p>
                 Lorem ipsum dolor sit amet, scripta molestiae eos ei, ea viderer verterem nec, id fabulas legimus posidonium pro. Debet instructior pri id, dolor possit eu cum. Eum ut sint veniam. Usu insolens scribentur ad, eam melius molestiae eu. Alii invidunt sea
                 ne.

@@ -5,7 +5,7 @@
         include 'meta.php';
         ?>
 
-        <title>CodeBuzz | Jimit Dholakia</title>
+        <title>DSMS <?php include 'title.php' ?></title>
 
          <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -74,7 +74,7 @@
                 
                 <!-- PAGE CONTENTS Starts -->
 
-                <h2>Data stream management system</h2>
+                <h2>Data Stream Management System</h2>
 
                 <p>A data stream management system (DSMS) is a computer software system to manage continuous data streams. It is similar to a database management system (DBMS), which is, however, designed for static data in conventional databases. A DSMS also offers a flexible query processing so that the information need can be expressed using queries. However, in contrast to a DBMS, a DSMS executes a continuous query that is not only performed once, but is permanently installed. Therefore, the query is continuously executed until it is explicitly uninstalled. Since most DSMS are data-driven, a continuous query produces new results as long as new data arrive at the system. This basic concept is similar to Complex event processing so that both technologies are partially coalescing.</p>
                 

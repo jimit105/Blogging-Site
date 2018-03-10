@@ -5,7 +5,7 @@
         include 'meta.php';
         ?>
 
-        <title>CodeBuzz | Jimit Dholakia</title>
+        <title>Home Page<?php include 'title.php' ?></title>
 
          <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -53,7 +53,7 @@
                         </div>
 
                         <div class="pageCategory">
-                            CodeBuzz
+                            Home
                         </div>
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
