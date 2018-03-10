@@ -76,7 +76,7 @@
                 <!-- PAGE CONTENTS Starts -->
 
                 <div id="rss-articles">
-                    <i class="fa fa-spinner"></i>
+                    <i class="fa fa-spinner fa-spin"></i>
                     Loading RSS Articles..
                 </div>
 
