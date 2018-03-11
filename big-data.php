@@ -55,8 +55,7 @@
 
             <h3 style="text-align: center">Big Data</h3>
             <p>
-                Lorem ipsum dolor sit amet, scripta molestiae eos ei, ea viderer verterem nec, id fabulas legimus posidonium pro. Debet instructior pri id, dolor possit eu cum. Eum ut sint veniam. Usu insolens scribentur ad, eam melius molestiae eu. Alii invidunt sea
-                ne.
+                Big data is an evolving term that describes any voluminous amount of structured, semistructured and unstructured data that has the potential to be mined for information. Big data is data sets that are so voluminous and complex that traditional data processing application software are inadequate to deal with them.
             </p>
            
             <div class="line"></div>

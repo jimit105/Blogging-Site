@@ -55,8 +55,7 @@
 
             <h3 style="text-align: center">Python</h3>
             <p>
-                Lorem ipsum dolor sit amet, scripta molestiae eos ei, ea viderer verterem nec, id fabulas legimus posidonium pro. Debet instructior pri id, dolor possit eu cum. Eum ut sint veniam. Usu insolens scribentur ad, eam melius molestiae eu. Alii invidunt sea
-                ne.
+                Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It has simple easy-to-use syntax, making it the perfect language for someone trying to learn computer programming for the first time.
             </p>
            
             <div class="line"></div>
