@@ -25,7 +25,7 @@
     
     <!-- GOOGLE MAPS Script Starts -->
         <script>
-var myCenter = new google.maps.LatLng(19.0730898, 72.8976334);
+var myCenter = new google.maps.LatLng(19.073138, 72.899417);
 function initialize(){
     var mapProp = {
         center:myCenter,
