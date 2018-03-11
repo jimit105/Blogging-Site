@@ -50,6 +50,52 @@ include 'db.php'
         }
 
     </script>
+        
+        
+    <!-- SNACKBAR Starts -->
+        <style>
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #696969;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+   
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+</style>
+        <!-- SNACKBAR Ends -->
 
     </head>
     <body>
@@ -98,12 +144,22 @@ include 'db.php'
                     </div>
                     
                     <form method="post" action="chat-box.php">
-                        <input type="text" name="name" placeholder="Enter Name">
+                        <input type="text" name="name" placeholder="Enter Name" autocomplete="off" autofocus>
                         &nbsp;
                         <textarea name="msg" placeholder="Enter Message"></textarea>
                         &nbsp;
-                        <input type="submit" name="submit" value="Send">
+                        <input type="submit" name="submit" value="Send" onclick="myFunction()">
                     </form>
+                    
+                    <div id="snackbar">Message Sent</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("snackbar")
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+</script>
 
                     <?php
                         if(isset($_POST['submit'])){
