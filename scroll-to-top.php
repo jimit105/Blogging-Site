@@ -1,7 +1,7 @@
 <?php
 
 echo '<link rel="stylesheet" href="styles/scroll-to-top.css">';
-echo '<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>';
+echo '<button onclick="topFunction()" id="scroll-to-top" title="Go to top"><i class="fa fa-chevron-up"></i></button>';
 
 echo '
 <script>
@@ -10,9 +10,9 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
+        document.getElementById("scroll-to-top").style.display = "block";
     } else {
-        document.getElementById("myBtn").style.display = "none";
+        document.getElementById("scroll-to-top").style.display = "none";
     }
 }
 
