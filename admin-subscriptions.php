@@ -40,6 +40,9 @@ session_start();
           <?php
         include 'sidebar.php';
         ?>
+          <script>
+              document.getElementById("subscription-details").classList.add("active");
+          </script>
                   
 
             <div id="content" style="width: 100%;">
@@ -58,7 +61,7 @@ session_start();
                 <div class="container">
                    <div class="table-responsive">
                       <br />
-                      <table class="table table-bordered table-striped" id="fdbk">
+                      <table class="table table-bordered table-striped table-hover" id="fdbk">
                       <tr>
                           <th>Name</th>
                           <th>Email</th>

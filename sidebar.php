@@ -59,6 +59,15 @@ echo'
                     
 			</a>
 		</li>
+        
+        <li id="subscription-details" style="display: none">
+			<a href="admin-subscriptions.php">
+				<i class="fa fa-list-ul"></i>
+                        Subscription Details
+                    
+			</a>
+		</li>
+        
 	</ul>
 	<ul class="list-unstyled CTAs">
 		<li>
@@ -81,6 +90,18 @@ echo'
 	</ul>
 </nav>';
 
+// Hide Subscription details if user is not admin
+if(isset($_SESSION['username'])){
+	
+	if($_SESSION['username']=='admin@example.com'){
+	echo '
+<script>
+    document.getElementById("subscription-details").style.display="block";
+</script>
+';
+	}
+}
+
 
 //  Google Translate
 echo '
@@ -92,5 +113,8 @@ function googleTranslateElementInit() {
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 ';
+
+
+
 
 ?>
