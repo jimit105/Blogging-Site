@@ -8,7 +8,7 @@ session_start();
         include 'meta.php';
         ?>
 
-        <title>Home Page<?php include 'title.php' ?></title>
+        <title>Subscribe Us<?php include 'title.php' ?></title>
 
          <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -102,8 +102,8 @@ session_start();
 
                 <!-- NAVBAR Ends -->
                 <!-- PAGE CONTENTS Starts -->
-                <div class="container" style="width:500px;">  
-                <h3 align="">Subscribe With Us!</h3><br/>                 
+                <div class="container">  
+                <h3 align="">Subscribe Us!</h3>                 
                 <form method="post">  
                      <?php   
                      if(isset($error))  
@@ -114,30 +114,34 @@ session_start();
                      <br />  
                      <label>Name</label>  
                      <input type="text" name="name" class="form-control" /><br />  
+                    
                      <label>Email Address</label>  
                      <input type="email" name="email" class="form-control" /><br />  
-                     <label>Your Subject</label> 
-                     <select class="form-control" id="subject" name="subject">
+                    
+                     <label>Your Preferred Topic</label> 
+                     <select class="form-control" id="subject" name="subject">                         
                         <option>Machine Learning</option>
                         <option>Python</option>
                         <option>Big Data</option>
                      </select><br> 
-                     <label>Your preferred time</label> 
+                    
+                     <label>Your Preferred Time</label>                     
                      <select class="form-control" id="time" name="time">
                         <option>Morning</option>
                         <option>Noon</option>
                         <option>Evening</option>
                      </select> <br>
  
-                     <input type="submit" name="submit" value="Subscribe" class="btn btn-info" /><br />    
-
-                 
+                    <div class="text-center">
+                     <input type="submit" name="submit" value="Subscribe" class="btn btn-info " />
+                    </div><br />
                      <?php  
                      if(isset($message))  
                      {  
                           echo $message;  
                      }  
                      ?>  
+                    
                 </form>  
                 </div>  
                 <!-- PAGE CONTENTS Ends -->
