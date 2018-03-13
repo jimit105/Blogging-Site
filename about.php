@@ -91,12 +91,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
             <h3 style="text-align: center">About Us</h3>
             <p>
-                Lorem ipsum dolor sit amet, scripta molestiae eos ei, ea viderer verterem nec, id fabulas legimus posidonium pro. Debet instructior pri id, dolor possit eu cum. Eum ut sint veniam. Usu insolens scribentur ad, eam melius molestiae eu. Alii invidunt sea
-                ne.
+                CodeBuzz is a trusted community for people to understand, learn and discover interesting facts about the latest trends in Programming and Computer Technologies. Our contributors bring a unique perspective to everything we do! 
             </p>
             <p>
-                Ne appetere recteque duo, nulla noluisse eos no. Ius virtute tractatos eu. Vidisse tritani maiorum vel in, volumus consequuntur mel te. Et eos solum movet repudiandae, mei vide nonumes in, augue posidonium at est. Inermis eloquentiam in eum, munere aperiri
-                ea vel.
+                There are three responses to a good blog - yes, no and WOW! We aim for a WOW at CodeBuzz and our bloggers make it a reality!
             </p>
             
             <div class="line"></div>
@@ -104,16 +102,16 @@ google.maps.event.addDomListener(window, 'load', initialize);
             <!-- CONTRIBUTORS Starts -->
             
             <div class="container">
-                <br>
+                
                 <h3 class="text-center">Contributors</h3>
                 <p class="text-center">Those who write with us!</p>
                 <br>
             	<div class="row">
-            		<div class="card" style="width: 25em; margin: auto;">
+            		<div class="card" style="width: 25em; margin: auto;">&nbsp;
                     	<img class="img-fluid" src="images/male.png" style="width:70%; margin: auto;">
                     		<div class="card-body">
                     			<h4 class="card-title" style="text-align: center;">Jimit Dholakia</h4>
-                    			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    			<p class="card-text"></p>
                     			<div class="text-center">
                                     <a href="https://in.linkedin.com/in/jimit105" class="btn btn-primary" target="_blank">  
                                         <i class="fa fa-envelope"></i>
@@ -123,11 +121,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
                     		</div>
                 	</div>
 
-                	<div class="card" style="width: 25em; margin: auto;">
+                	<div class="card" style="width: 25em; margin: auto;">&nbsp;
                     	<img class="img-fluid" src="images/female.png" style="width:70%; margin: auto;">
                     		<div class="card-body">
                     			<h4 class="card-title" style="text-align: center;">Ushma Bhatt</h4>
-                    			<p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    			<p class="card-text"></p>
                     			<div class="text-center">
                                     <a href="https://in.linkedin.com/in/ushma-bhatt-950a82133" class="btn btn-primary" target="_blank">  
                                         <i class="fa fa-envelope"></i>
