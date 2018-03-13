@@ -47,9 +47,9 @@ session_start();
           }
           else  
           {  
-               if(file_exists('subs.json'))  
+               if(file_exists('subscriptions.json'))  
                {  
-                    $current_data = file_get_contents('subs.json');  
+                    $current_data = file_get_contents('subscriptions.json');  
                     $array_data = json_decode($current_data, true);  
                     $extra = array(  
                          'name'               =>     $_POST['name'],  
@@ -59,7 +59,7 @@ session_start();
                     );  
                     $array_data[] = $extra;  
                     $final_data = json_encode($array_data);  
-                    if(file_put_contents('subs.json', $final_data))  
+                    if(file_put_contents('subscriptions.json', $final_data))  
                     {  
                          $message = "<label class='text-success'>Thank You for Subscribing!</p>";  
                     }  
