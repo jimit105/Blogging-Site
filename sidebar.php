@@ -62,15 +62,17 @@ echo'
 	</ul>
 	<ul class="list-unstyled CTAs">
 		<li>
-			<a href="#" class="subscribe">
+			<a href="subscribe.php" class="subscribe">
 				<i class="fa fa-envelope"></i>Subscribe us
 			</a>
 		</li>
+        <!--
 		<li>
 			<a href="#" class="article">
 				<i class="fa fa-share"></i>Share an article
 			</a>
 		</li>
+        -->
         <li>
 			<a href="#" class="subscribe">
 				<div id="google_translate_element"></div>
