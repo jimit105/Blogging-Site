@@ -34,7 +34,7 @@ echo 'Guest';
                             if(isset($_SESSION['username'])){
 echo '<a class="nav-link" href="destroy.php" style="text-decoration:none">Logout</a>';
 }else{
-echo '<a class="nav-link" href="adminlog.php" style="text-decoration:none">Login</a>';
+echo '<a class="nav-link" href="login-page.php" style="text-decoration:none">Login</a>';
 }
                             
                             echo'
