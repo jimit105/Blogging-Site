@@ -103,7 +103,7 @@ session_start();
                 <!-- NAVBAR Ends -->
                 <!-- PAGE CONTENTS Starts -->
                 <div class="container">  
-                <h3 align="">Subscribe Us!</h3>                 
+                <h3 style="text-align: center">Subscribe Us!</h3>                 
                 <form method="post">  
                      <?php   
                      if(isset($error))  
