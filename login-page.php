@@ -55,50 +55,25 @@ session_start();
                 <!-- PAGE CONTENTS Starts -->
 
                 <!-- LOGIN -->
-
-                    <div id="login" class="card-body">
+                
+                <div class="container">
+                    <h3 style="text-align: center">Login</h3>
+                    <div id="login">
                     <form name="loginForm" method="post" action="login.php">
-                    <table align="center" width="150%">
-                    <tr>
-                      <td>
-                        <h2>Login</h2>
-                      </td>
-                    </tr>
-                    <tr>  
-                      <td>
-                        <input type="email" name="email" id="user" placeholder="Email" required>
-                      </td> 
-                    </tr>
-                    <br>
-                    <tr>  
-
-                      <td >
-                        <input type="password" name="password" id="pass" placeholder="Password" required>
-                      </td>
-                    </tr>
-                    <tr>
-                      
-                      <td>
-                        <input type="submit" name="login" value="Let me in.." class="click">
-                      </td>
-                    </tr>
-                    <!--
-                    <tr>
-                      <td colspan="2" class="signin">
-                        <input type="image" src="signin_google.png" alt="Login with Google" width="50%" height="50%">
-
-                      </td>
-                    </tr>
-                    <tr>
-                      <td colspan="2" class="signin">
-                        <input type="image" src="signin_fb.png" alt="Login with FB" width="50%" height="50%">
-
-                      </td>
-                    </tr>
-                    //-->
-                    </table>
+                        <label>Enter Email</label>
+                        <input type="email" name="email" id="user" placeholder="Email" class="form-control" required autofocus>
+                        <br>
+                        <label>Enter Password</label>
+                        <input type="password" name="password" id="pass" placeholder="Password" class="form-control" required>
+                        <br>
+                        <div class="text-center">
+                        <input type="submit" name="login" value="Login" class="btn btn-info click">
+                        </div>
                     </form>
-                    </div> 
+                    </div>
+                    
+                </div>
+                
 
 
                 <!-- PAGE CONTENTS Ends -->
