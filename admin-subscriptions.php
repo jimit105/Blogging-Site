@@ -57,6 +57,8 @@ session_start();
                 <!-- NAVBAR Ends -->
 
                 <!-- PAGE CONTENTS Starts -->
+                
+                <h3 style="text-align: center;">Subscription Details</h3>
 
                 <div class="container">
                    <div class="table-responsive">
