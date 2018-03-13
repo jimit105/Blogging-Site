@@ -147,7 +147,11 @@ include 'db.php'
                     </div>
                     
                     <form method="post" action="chat-box.php">
-                        <input type="text" name="name" placeholder="Enter Name" autocomplete="off" autofocus>
+                        <input type="text" name="name" placeholder="Enter Name" autocomplete="off" autofocus value="<?php if(isset($_SESSION['fname'])){
+echo $_SESSION['fname'];
+}else{
+echo 'Guest';
+}?>">
                         &nbsp;
                         <textarea name="msg" placeholder="Enter Message"></textarea>
                         &nbsp;
