@@ -1,6 +1,6 @@
 # Blogging Site
 
-A Blogging Site which displays artciles for various categories.
+A Blogging Site which displays articles for various categories.
 
 ### Features:
 * View Blog Articles
