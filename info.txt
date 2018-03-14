@@ -1,0 +1,8 @@
+Database name: Blogging-Site
+Table: chat, users
+
+Users Contents:
+Email			Password
+admin@example.com	abcdef	(Admin)
+lorem@ipsum.com		qwerty
+jimit@example.com	123456
